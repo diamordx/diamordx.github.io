@@ -56,17 +56,17 @@ body {
 }
 
 .panel-1 {
-    background-image: url(./image1.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/diamordx/diamordx.github.io/image1.jpg);
     background-color: rgba(30, 58, 138, 0.8);
 }
 
 .panel-2 {
-    background-image: url(./image2.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/diamordx/diamordx.github.io/image2.jpg);
     background-color: rgba(22, 101, 52, 0.8);
 }
 
 .panel-3 {
-    background-image: url(./image3.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/diamordx/diamordx.github.io/image3.jpg);
     background-color: rgba(91, 33, 182, 0.8);
 }
 
