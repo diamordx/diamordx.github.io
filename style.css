@@ -297,3 +297,84 @@ video {
         transform: translate(-50%, -50%);
     }
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+
+    .panel {
+        grid-template-columns: 1fr; /* 單欄佈局 */
+        grid-template-areas: "header" "content";
+        text-align: center;
+        padding: 20px;
+    }
+
+    .panel h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .panel p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .route-section-content h1 {
+        font-size: 3.5rem;
+    }
+
+    .route-section-content p {
+        font-size: 1.2rem;
+    }
+
+    .profile-frame {
+        width: 150px;
+        height: 150px;
+        border-width: 5px;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+        padding: 0 20px;
+    }
+
+    .horizontal-section {
+        width: 100vw; /* 防止橫向滾動 */
+        flex-direction: column;
+    }
+
+    .panel {
+        width: 100vw;
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .invite {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .last-title {
+        font-size: 3rem;
+    }
+
+    .last-content {
+        font-size: 1.2rem;
+    }
+
+    .demo-ver {
+        width: 80px;
+        height: 80px;
+        font-size: 1rem;
+    }
+}
